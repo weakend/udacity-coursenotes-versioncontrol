@@ -47,3 +47,12 @@ Getting Colored Output: To get colored diff output, run git config --global colo
 Nur lexikalisch enden systematisch und panisch identisch.
 
 Q: How might using version control make you more confident to make changes that could break something? A: Because for every change that breaks something, there is a time machine thats break and (Rückwärtsgang) ich betätigen kann.
+
+Version Control ist ja nicht sooo neu. Warum erzählen dennoch alle von den alten Zeiten davor. Aus persönlicher Perspektive vermutlich, aus ihrer eigenen Zeitachse auf der sie noch nicht damit vertraut waren.
+
+Interessante Alternative zu meiner Kopie: ... If you use Sublime, you can do this by adding the following line to your .bash_profile: alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+
+git diff // compare two commits; +/-; Reihenfolge der commits bestimmt die Perspektive in Folge dessen kann ein Blick in die Zukunft als auch in die Vergangenheit geworfen werden 
+git clone // copy an repository = commit inclusive
+git checkout // temp reset all files in dir to their state of a specific commit; Änderungen immer an 1-n Dateien, 0-Änderungen commit verhindert git
+git log // list commits desc
