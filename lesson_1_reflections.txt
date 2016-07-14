@@ -1,0 +1,49 @@
+In der ersten Lektion habe ich fc kennengelernt, das allein schon ein Life Changer für mich ist:
+Ein in Windows eingebautest diff, das ich bisher nicht kannte, das Dateien/sätze vergleichen kann.
+Früher hätte ich viel früher davon Gebrauch gemacht, heutzutage hatte ich mit Google windiff entdeckt.
+Das bietet zwar farbig, zweispaltig aufbereitete Auswertungen. - windiff als path-Tool installieren?
+Hier die fc manpage:
+
+	Vergleicht zwei Dateien oder zwei Sätze von Dateien und zeigt die
+	Unterschiede zwischen ihnen an.
+
+
+	FC [/A] [/C] [/L] [/LBn] [/N] [/OFF[LINE]][/T] [/U] [/W] [/nnnn]
+	[Laufwerk1:][Pfad1]Dateiname1[Laufwerk2:][Pfad2]Dateiname2
+	FC /B [Laufwerk1:][Pfad1]Dateiname1 [Laufwerk2:][Pfad2]Dateiname2
+
+	  /A         Zeigt nur die erste und letzte Zeile jedes Satzes von
+	             Unterschieden an.
+	  /B         Führt einen binären Vergleich durch.
+	  /C         Vergleicht ohne Rücksicht auf Groß-/Kleinschreibung.
+	  /L         Vergleicht Dateien als ASCII-Textdateien.
+	  /LBn       Stellt die maximale Zahl aufeinander folgender, unterschiedlicher
+	             Zeilen auf die angegebene Anzahl n ein.
+	  /N         Zeigt bei einem ASCII-Vergleich die Zeilennummern an.
+	  /OFF[LINE] Überspringt keine Offlinedateien.
+	  /T         Expandiert Tabulatorzeichen nicht zu Leerzeichen.
+	  /U         Vergleicht Dateien als UNICODE-Textdateien.
+	  /W         Komprimiert Tabulatoren und Leerzeichen für den Vergleichsvorgang.
+	  /nnnn      Anzahl aufeinander folgender Zeilen, die nach einem Unterschied
+	             wieder übereinstimmen müssen.
+
+	  [Laufwerk1:][Pfad1]Dateiname1
+	            Gibt die erste Datei bzw. ersten Dateisatz zum Vergleichen an.
+	  [Laufwerk2:][Pfad2]Dateiname2
+	            Gibt die zweite Datei bzw. zweiten Dateisatz zum Vergleichen an.
+
+Versionskontrolle kann als Referenz für die Änderungen dienen, oder aber Dokumentation eigener Fortschritte.
+V. ist demnach auch eine Verwaltung des Mangel an Erfahrungen, wie auch eine Vergewisserung des Selbst.
+"Git", british slang, by Linus Torvald
+
+"Concept Map": Version Control Pyramie on top, multicolored association
+
+Commit: in logical segments 
+
+"What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs doesMeine Antwort wäre: Would say that atomic changes based automatic version control is more like an passive undo/redo or step by step solution, while having a to commit is like writing a diary or captains log: If something happens, or you made something happen, you should know, because thats one of your business. And to keep a track of that is another one. Think of a diary, that gives you insights into your self at another point of life: Wouln't have you smiled at the one and the other, and remembered what you have learned since?
+
+Getting Colored Output: To get colored diff output, run git config --global color.ui auto
+
+Nur lexikalisch enden systematisch und panisch identisch.
+
+Q: How might using version control make you more confident to make changes that could break something? A: Because for every change that breaks something, there is a time machine thats break and (Rückwärtsgang) ich betätigen kann.
