@@ -1,0 +1,5 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: Git gets .git created, where Git stores its information on the files above.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers? 
+A: Staging area is a step before you give away your files into local or public repository, so you can decide what behaves into your selection of files valued as to be tracked and on the other side you will not forget one before submitting its 
