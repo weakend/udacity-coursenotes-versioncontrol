@@ -3,3 +3,13 @@ A: Git gets .git created, where Git stores its information on the files above.
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers? 
 A: Staging area is a step before you give away your files into local or public repository, so you can decide what behaves into your selection of files valued as to be tracked and on the other side you will not forget one before submitting its 
+
+Finding #1: git diff [--staged|id1 id2]
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: Stage = add only files, that apply to the specific change. Academic, if a file is slightly larger or mixed up by different topics, like helper libs.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Develop on variables defined by different configurations, for a showcase on how this and that would result into.  
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?

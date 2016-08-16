@@ -1,4 +1,4 @@
-In der ersten Lektion habe ich fc kennengelernt, das allein schon ein Life Changer für mich ist:
+﻿In der ersten Lektion habe ich fc kennengelernt, das allein schon ein Life Changer für mich ist:
 Ein in Windows eingebautest diff, das ich bisher nicht kannte, das Dateien/sätze vergleichen kann.
 Früher hätte ich viel früher davon Gebrauch gemacht, heutzutage hatte ich mit Google windiff entdeckt.
 Das bietet zwar farbig, zweispaltig aufbereitete Auswertungen. - windiff als path-Tool installieren?
@@ -33,7 +33,7 @@ Hier die fc manpage:
 	            Gibt die zweite Datei bzw. zweiten Dateisatz zum Vergleichen an.
 
 Versionskontrolle kann als Referenz für die Änderungen dienen, oder aber Dokumentation eigener Fortschritte.
-V. ist demnach auch eine Verwaltung des Mangel an Erfahrungen, wie auch eine Vergewisserung des Selbst.
+V. ist demnach auch eine Verwaltung dringend nötiger Erinnerungslücken, wie auch eine Vergewisserung des Selbst. Niemand kann und sollte sich atomare oder sogar größere Änderungen anhand des Code merken müssen, an erster Stelle steht die Beherrschung dessen.
 "Git", british slang, by Linus Torvald
 
 "Concept Map": Version Control Pyramie on top, multicolored association

@@ -1,0 +1,17 @@
+Lektion 3: Zusammenarbeit in Git mit GitHub
+
+udosj (master *) reflections $ ls -al
+total 24
+drwxr-xr-x 1 udosj 197609    0 Jul 14 11:36 ./
+drwxr-xr-x 1 udosj 197609    0 Jul 14 09:08 ../
+drwxr-xr-x 1 udosj 197609    0 Jul 14 12:28 .git/
+-rw-r--r-- 1 udosj 197609 4294 Aug 11 12:50 lesson_1_reflections.txt
+-rw-r--r-- 1 udosj 197609 1143 Aug 12 08:36 lesson_2_reflections.txt
+udosj (master *) reflections $ git remote
+udosj (master *) reflections $ git remote add origin https://github.com/weakend/udacity-coursenotes-versioncontrol.git
+udosj (master *) reflections $ git remote -v
+
+-v für verbose, engl., für langatmig, wortreich (lt. dict.leo.org), höflicher wohl: ausführlich; liefert
+
+origin  https://github.com/weakend/udacity-coursenotes-versioncontrol.git (fetch)
+origin  https://github.com/weakend/udacity-coursenotes-versioncontrol.git (push)
